@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: lightgoldenrodyellow;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    width: 98%;
+    background: black;
+    padding: 10px;
+    color: white;
+    opacity: 60%;
+    display: fixed;
+    height: 10%;
+    border-radius: 30px;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 1%;
+}
+
+main {
+    width: 100%;
+    height: 80%;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background: black;
+    color: lightgoldenrodyellow;
+    opacity: 55%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.h1con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: gray;
+}
+
+h6 {
+    color: gray;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pack-container {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-pack {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-style: italic;
+    height: 580px;
+    width: 310px;
+    background: lightgreen;
+    color: white;
+    border-radius: 20px;
+    margin-right: 60px;
+}
+
+.medium-pack {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-style: italic;
+    height: 580px;
+    width: 310px;
+    background: lightblue;
+    color: white;
+    border-radius: 20px;
+    margin-right: 60px;
+}
+
+.large-pack {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-style: italic;
+    height: 580px;
+    width: 310px;
+    background: linear-gradient(45deg, white 30%, pink, lightblue);
+    color: white;
+    border-radius: 20px;
+    margin-right: 60px;
+}
+
+.mega-pack {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-style: italic;
+    height: 310px;
+    width: 1060px;
+    margin-top: 15px;
+    margin-right: 60px;
+    background: linear-gradient(45deg, orange 40%, red);
+    color: white;
+    border-radius: 20px;
+}
+
+.bloxfruit-pack {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-style: italic;
+    height: 310px;
+    width: 1060px;
+    margin-top: 15px;
+    margin-right: 60px;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue);
+    color: white;
+    border-radius: 20px;
+}
+
+.mpack-container {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bfpack-container {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 85%;
+    height: 6%;
+    border: none;
+    border-radius: 20px;
+    background: rgb(214, 214, 214);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+button:hover {
+    background: white;
+    transition: 0.4s;
+}
+
+.mega-button {
+    width: 85%;
+    height: 10%;
+}
+
+.titlecon {
+    width: 15px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchgp {
+    width: 40%;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 190px;
+}
+
+.btn {
+    width: 10%;
+    height: 40px;
+    border-radius: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    width: 105px;
+    height: 100%;
+    background: white;
+    font-weight: bold;
+    border-radius: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 1%;
+}
